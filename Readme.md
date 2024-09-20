@@ -14,8 +14,6 @@ Here’s a structured index for your README:
 2. [What is the Breast Cancer MRI Machine Learning Project?](#what-is-the-breast-cancer-mri-machine-learning-project)
 3. [What is an MRI?](#what-is-an-mri)
 4. [Datasets Used](#datasets-used)  
-   4.1 [Duke Breast Cancer MRI Dataset](#duke-breast-cancer-mri-dataset)  
-   4.2 [MAMA-MIA Dataset](#mama-mia-dataset)
 5. [Data Preprocessing](#data-preprocessing)
 6. [Classification Models](#classification-models)  
    6.1 [Convolutional Neural Network (CNN)](#1-convolutional-neural-network-cnn)  
