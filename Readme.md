@@ -89,7 +89,7 @@ This model is built using a pretrained DenseNet-121 without changing the weights
 
 #### Current Results:
 
-![image](https://github.com/user-attachments/assets/ac3fc292-a92b-4410-b068-01adedfe2f5f)
+![image](![Results](https://github.com/user-attachments/assets/4bb7303c-0c8d-4bf0-a875-47f67979842a))
 
 ### **2. Vision Transformer (ViT)**
 
