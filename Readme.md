@@ -89,7 +89,7 @@ This model is built using a pretrained DenseNet-121 without changing the weights
 
 #### Current Results:
 
-![Alt text](https://github.com/SahilMahey/Breast-Cancer-MRI-ML-Project-/blob/main/images/Results_CNN.png)
+![Alt text](https://github.com/SahilMahey/Breast-Cancer-MRI-ML-Project-/blob/main/Results_CNN.png)
 
 
 ### **2. Vision Transformer (ViT)**
