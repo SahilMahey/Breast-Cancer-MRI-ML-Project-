@@ -4,6 +4,29 @@ Hi, welcome to this repository!
 
 This project is currently under development, and model details may change as results improve.
 
+Here’s a structured index for your README:
+
+---
+
+# **Index**
+
+1. [Introduction](#introduction)
+2. [What is the Breast Cancer MRI Machine Learning Project?](#what-is-the-breast-cancer-mri-machine-learning-project)
+3. [What is an MRI?](#what-is-an-mri)
+4. [Datasets Used](#datasets-used)  
+   4.1 [Duke Breast Cancer MRI Dataset](#duke-breast-cancer-mri-dataset)  
+   4.2 [MAMA-MIA Dataset](#mama-mia-dataset)
+5. [Data Preprocessing](#data-preprocessing)
+6. [Classification Models](#classification-models)  
+   6.1 [Convolutional Neural Network (CNN)](#1-convolutional-neural-network-cnn)  
+   6.2 [Vision Transformer (ViT)](#2-vision-transformer-vit)
+7. [Segmentation](#segmentation)
+8. [Current Results](#current-results)
+
+---
+
+This index will help readers quickly navigate to different sections of your README. You can adjust the links to suit the final structure of your document.
+
 ## What is the Breast Cancer MRI Machine Learning Project?
 
 I am working on building a Machine Learning (ML) model to predict whether a given MRI image contains cancer or not. This is a **classification** problem in ML.
@@ -25,12 +48,16 @@ An MRI file consists of a stack of black-and-white 2D images, called **slices**.
 ## Datasets Used
 
 ### 1. **Duke Breast Cancer MRI Dataset**  
-This dataset contains MRIs of 922 patients in DICOM format. Each patient has undergone MRI scans at various stages of treatment, and I’ve selected the pre-treatment MRIs for all patients. The dataset also includes an annotation file, which indicates which slices contain visible cancerous tumors. This dataset is used for training and testing.  
+This dataset contains MRIs of 922 patients in DICOM format. Each patient has undergone MRI scans at various stages of treatment, and I’ve selected the pre-treatment MRIs for all patients. The dataset also includes an annotation file, which indicates which slices contain visible cancerous tumors. This dataset is used for training and testing.
 [Dataset link](https://www.cancerimagingarchive.net/collection/duke-breast-cancer-mri/)
 
-### 2. **MAMA-MIA Dataset**  
+### 2. **MAMA-MIA Dataset**
 This dataset combines multiple MRI datasets, including Duke, ISPY2, ISPY1, and TCGA-BRCA. I focused on the ISPY2 dataset, which contains 980 patients. After filtering for bilateral breast MRIs (both breasts visible, no implants, axial position only), I narrowed it down to 166 patients. This dataset is used for validation.
 [Dataset link](https://github.com/LidiaGarrucho/MAMA-MIA)
+
+
+
+
 ---
 
 ## Data Preprocessing
